@@ -1,0 +1,48 @@
+'use strict';
+// our known datatypes:  stings, numbers, booleans
+// new data type:  array
+// an array is a collection in javascript
+
+var students = ['Terrence', 'Thomas', 'Travis', 'Anthony O.', 'Anthony T.', 'Nassir'];
+//                 0           1         2          3             4            5
+
+console.log(students[0]);
+students[7] = 'Ceylin';
+
+console.log(students.length);
+console.log(students);
+
+// while loops:  
+// while(true){
+//   console.log('do the thing');
+// }
+
+var i = 0;   //instantiation
+while (i < students.length){ //condtion
+  console.log(students[i]);  //
+  // i = i + 1;  //equivalent code below - 
+  i++;  // incrementation
+}
+
+console.log('--------------')
+// for loops
+
+// 3 counter parts:  
+  // 1. instantiation
+  // 2. condition
+  // 3. incrementation
+ // for (instantiation; condition; incrementation){
+  //  do the thing
+//  }
+for (var i = 0; i < students.length; i++){
+  console.log(students[i]);
+}
+
+var colors = ['blue', 'red', 'yellow'];
+while (i < colors.length){ //condition
+console.log(colors[i]);  //
+// i= i + 1; //equivalent code below -
+i++; //incrementation
+console.log(colors);
+}
+

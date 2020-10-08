@@ -1,0 +1,126 @@
+use strict';
+
+var username = prompt('What is your name?');
+console.log('Hi ' + username);
+
+// Ryan - Question 1:
+var homeLocation = prompt('Am I from Seattle?').toLowerCase();
+
+if(homeLocation === 'yes' || homeLocation === 'y' ){
+  // console.log('Yes!  I live in Seattle');
+  alert('Yes!  I live in Seattle');
+
+
+// Ryan - Question 2:
+ var foodIMOS= prompt('Have you tried IMOs in STL?').toUpperCase();
+
+ if(foodIMOS ==='yes'  || foodIMOS === 'y' ){
+  // console.log('Yes I love IMOs');
+  alert("Yes I love IMOs');   
+ 
+
+ // Ryan- Question 3:
+ var actorName= prompt('Do you like Leonardo Dicapio?').toLowerCase();
+ 
+ if(actorName ==='yes'  || actorName=== 'y' ){
+ // console.log('Yes I love his movies!');
+ alert(' Yes I love his movies!');
+
+ //Ryan-Question 4:
+ var beverageType= prompt('Do you enjoy Blue Moon Aged Ale?').toLowerCase();
+
+ if(beverageType ==='yes' || beverageType=== 'y'  ){
+ // console.log('Yes I love Blue Moon.');
+ alert('Yes I love Blue Moon.');
+
+ //Ryan-Question 5:
+ var bandName= prompt('Do you like ACDC?').toUpperCase();
+
+ if(bandName ==='yes' || bandName=== 'y' ){
+ //console.log('Yes I like their song "Rock n Roll".');
+ alert('Yes I like thier song "Rock n Roll".');   
+
+ <p> Hello World. I'm Rashad Akbar, a retired military vet. I was in food service during the course 
+ of my 6 year career. I'm looking for a promising field change in the Tech Industry as a
+ software developer. I'm estactic to be able to attend Code Fellows. I was born and raised in St.Louis. I'm currently living
+ in Cahokia, Illinois. I enjoy food, beer, netflix, and gaming. I hope to work for Google or Facebook.</p>
+
+//Rashad-Question 6:
+while (tries1 <= 3 && guess1 != rannum1) {
+  guess1 = parseInt(prompt('Alright ' + name1 + ' guess a number 1-10'));
+  if (guess1 < rannum1) {
+    alert('Your guess was to low!');
+    tries1++;
+    // console.log('tries amount ' + tries)
+  }
+  else if (guess1 > rannum1) {
+    alert('Your guess was to high!')
+    tries1++;
+    // console.log('tries amount ' + tries)
+  }
+}
+// }
+console.log(guess1)
+if (rannum1 === guess1) {
+  alert('You Win')
+  pointcounter++;
+}
+else {
+  alert(loser')
+}
+// var 7th Question
+var correctAnswers = ['Italy', 'Florida', 'Germany', 'Japan', 'Korea, Hawaii'];
+var guessAnswer = prompt('Where do you think my favorite place to visit is?');
+var attemptsRemaining = 6;
+var answeredCorrectly = false;
+while (attemptsRemaining > 0 && !answeredCorrectly) {
+  attemptsRemaining--;
+  for (var i = 0; i < correctAnswers.length; i++) {
+    if (guessAnswer === correctAnswers[i]) {
+      answeredCorrectly = true;
+      alert(`Yeah! ${guessAnswer} is you picked Japan, you're right!`);
+      pointcounter++;
+    }
+  }
+  if (attemptsRemaining > 0 && !answeredCorrectly) {
+    guessAnswer = prompt('Sorry that wasn\'t a correct answer please try again!');
+  }
+  
+  if (attemptsRemaining === 0 && !answeredCorrectly) {
+    alert('Sorry!')
+  }
+}
+alert(`You got ${pointcounter} questions correct!`);
+
+
+
+
+
+
+
+ Top 10 Places to visit:
+ 1. <a href="https://www.japan.travel/en/">Japan</a>
+ 2. <a href="https://www.youtube.com/watch?v=o70MzTHHNbI">Seoul, Korea</a>
+ 3. <a href="https://www.youtube.com/watch?v=FlRwssZYRM0">Italy</a>
+ 4. <a href="https://portal.ehawaii.gov/">Hawaii</a>
+ 5. <a href="https://www.visitorlando.com/en>Orlando,Florida"</a>
+ 6. <a href="https://www.thecrazytourist.com/best-things-madrid-spain/">Madrid,Spain</a>
+ 7. <a href="https://www.nytimes.com/topic/destination/israel">Israel</a>
+ 8. <a href="https://en.wikipedia.org/wiki/Philippines">Phillippines</a>
+ 9. <a href="https://www.britannica.com/place/Morocco">Morocco</a>
+ 10. <a href="https://www.visitlondon.com/">London</a>
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
